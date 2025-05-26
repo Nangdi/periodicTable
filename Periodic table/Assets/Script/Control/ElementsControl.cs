@@ -81,7 +81,7 @@ public class ElementsControl : MonoBehaviour
         yield return null;
         toggleGroup.allowSwitchOff = false;*/
         Debug.Log("TogglesReset1");
-        //toggleGroup.allowSwitchOff = true;
+        toggleGroup.allowSwitchOff = true;
         yield return null;
 
         Debug.Log("TogglesReset2");
@@ -93,7 +93,7 @@ public class ElementsControl : MonoBehaviour
 
         Debug.Log("TogglesReset3");
         toggleGroup.allowSwitchOff = false;
-        //SceneControlManager.Instance.OnLoadScene(SceneType.MainScene);
+        //SceneControlManager.Instance.OnLoadScene(SceneType.StandbyVideo);
 
     }
 
