@@ -38,6 +38,8 @@ public class DescriptionControl : MonoBehaviour
 
 
     public void OnClose() {
+        Debug.Log("버튼꺼짐");
+
         this.gameObject.SetActive(false);
     }
 

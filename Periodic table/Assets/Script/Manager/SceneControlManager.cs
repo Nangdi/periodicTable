@@ -63,7 +63,11 @@ public class SceneControlManager : MonoBehaviour
 
         OnInit();
     }
+    private void Start()
+    {
+        StartCoroutine(startMainScene());
 
+    }
     public void OnInit() {
         SceneReset(currentObjectType);
     }
@@ -147,5 +151,10 @@ public class SceneControlManager : MonoBehaviour
        
 
 
+    }
+    public IEnumerator startMainScene()
+    {
+        yield return new WaitForSeconds(1f);
+        OnLoadScene(SceneType.MainScene);
     }
 }

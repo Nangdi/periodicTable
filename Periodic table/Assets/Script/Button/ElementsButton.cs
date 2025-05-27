@@ -7,6 +7,8 @@ using UnityEngine.UI;
 using static GameManager;
 using static SoundManager;
 using DG.Tweening;
+using System.Data.Common;
+using System.Buffers;
 
 public class ElementsButton : MonoBehaviour, IPointerClickHandler
 {
@@ -23,13 +25,19 @@ public class ElementsButton : MonoBehaviour, IPointerClickHandler
 
     public CanvasGroup manImg;
 
+    public Toggle[] bundleToggle;
+    public ToggleGroup toggleGroup;
 
     public void ValueChangeEvent(bool isOn)
     {
         if (isOn)
         {
+            Debug.Log(1);
             descriptionControl.OnInit();
+            BundleOn();
+            Debug.Log(2);
             ChoseElement();
+            Debug.Log(3);
         }
         else {
             descriptionControl.OnClose();
@@ -60,6 +68,7 @@ public class ElementsButton : MonoBehaviour, IPointerClickHandler
         }*/
         //선택에 따른 별도의 이벤트 핸들러
         // 사운드
+       
         SoundManager.Instance.CreateSound(SoundType.btn);
 
 
@@ -68,9 +77,45 @@ public class ElementsButton : MonoBehaviour, IPointerClickHandler
     private void ChoseElement() {
         switch (elementType) { 
             case GameManager.ElementType.H:
-            Debug.Log("수소 선택");
+            //Debug.Log("꺼진 원소 : " + gameObject.name);
             break;
         }
     }
+    public void BundleOn()
+    {
+        Debug.Log("토글번들 알파비활성화");
+        if (GameManager.Instance.memorybundle != null)
+        {
+            for (int i = 0; i < GameManager.Instance.memorybundle.Length; i++)
+            {
+                if (GameManager.Instance.memorybundle[i] == targetToggle)
+                {
+                    continue;
+                }
+                GameManager.Instance.memorybundle[i].graphic.CrossFadeAlpha(0f, 0, true);
+                //다른원소클릭할때 모두 꺼지기
+            }
+            GameManager.Instance.memorybundle = null;
+        }
 
+        if (bundleToggle.Length == 0)
+        {
+            Debug.Log("토글그룹 키기");
+
+            return;
+        }
+
+        Debug.Log("토글번들 알파활성화");
+        //toggleGroup.enabled = false;
+        for (int i = 0; i < bundleToggle.Length; i++)
+        {
+            bundleToggle[i].graphic.CrossFadeAlpha(1f, 0, true);
+            //다른원소클릭할때 모두 꺼지기
+        }
+        GameManager.Instance.memorybundle = bundleToggle;
+    }
+    public void test(bool dw)
+    {
+
+    }
 }

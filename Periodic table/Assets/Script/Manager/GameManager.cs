@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -141,7 +142,7 @@ public class GameManager : MonoBehaviour
         Ts = 152,
         Og = 153
     }
-
+    public Toggle[] memorybundle;
 
     public void OnEnable()
     {

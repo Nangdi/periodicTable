@@ -878,6 +878,8 @@ MonoBehaviour:
   - elementsButton: {fileID: 2070711800}
   - elementsButton: {fileID: 1643139368}
   - elementsButton: {fileID: 1164627942}
+  - elementsButton: {fileID: 2062317347}
+  - elementsButton: {fileID: 246960237}
 --- !u!114 &13215197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1275,6 +1277,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 17224492}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &17224492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1546,6 +1550,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 20139212}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &20139212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4071,6 +4077,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 66060063}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &66060063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4276,6 +4284,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 72325882}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &72325882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4391,6 +4401,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 75365209}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &75365209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4751,6 +4763,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 81946991}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &81946991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4866,6 +4880,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 82472299}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &82472299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5721,6 +5737,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 98407818}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &98407818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5836,6 +5854,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 104498561}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &104498561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6159,7 +6179,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &111708273
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6587,6 +6607,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 121939114}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &121939114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6947,7 +6969,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &127514781
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8284,6 +8306,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154407849}
   m_CullTransparentMesh: 1
+--- !u!1 &156155277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 156155278}
+  - component: {fileID: 156155281}
+  - component: {fileID: 156155280}
+  - component: {fileID: 156155279}
+  m_Layer: 5
+  m_Name: "descriptionPanel_\uB780\uB2E4\uB118\uC871"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &156155278
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156155277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1373276817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -723, y: 50}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &156155279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156155277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5a713176a4a6a449ee81553dc97af7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementType: 0
+  descriptionName: {fileID: 0}
+--- !u!114 &156155280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156155277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a8a692d0c650c4b409c17b230f9bb092, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &156155281
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156155277}
+  m_CullTransparentMesh: 1
 --- !u!1 &159035571
 GameObject:
   m_ObjectHideFlags: 0
@@ -8304,7 +8416,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &159035572
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9574,7 +9686,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &173212027
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10056,6 +10168,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 184385947}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &184385947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10384,6 +10498,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 187951413}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &187951413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10574,6 +10690,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 192190007}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &192190007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11378,7 +11496,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &210395727
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12195,6 +12313,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 226622772}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &226622772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12310,6 +12430,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 230210709}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &230210709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12425,6 +12547,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 231130258}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &231130258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13337,8 +13461,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 246960236}
+  - component: {fileID: 246960238}
+  - component: {fileID: 246960237}
   m_Layer: 5
-  m_Name: Dummy(Clone) (2)
+  m_Name: "\uC545\uD2F0\uB284\uC871(Dummy)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13364,6 +13490,100 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &246960237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246960235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55aec715bcf85bd429997209cd0f6cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementType: 0
+  descriptionControl: {fileID: 1008841928}
+  elementNameText: {fileID: 0}
+  targetToggle: {fileID: 246960238}
+  manImg: {fileID: 1766117318}
+  bundleToggle:
+  - {fileID: 712104995}
+  - {fileID: 487600115}
+  - {fileID: 2086174993}
+  - {fileID: 733143321}
+  - {fileID: 1262884497}
+  - {fileID: 1057964388}
+  - {fileID: 283744208}
+  - {fileID: 1994209721}
+  - {fileID: 1055324576}
+  - {fileID: 1416129486}
+  - {fileID: 857276597}
+  - {fileID: 1326543462}
+  - {fileID: 1408203220}
+  - {fileID: 1576807900}
+  - {fileID: 805544554}
+  toggleGroup: {fileID: 1082184841}
+--- !u!114 &246960238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246960235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  toggleTransition: 1
+  graphic: {fileID: 1119638056}
+  m_Group: {fileID: 1082184841}
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 246960237}
+        m_TargetAssemblyTypeName: ElementsButton, Assembly-CSharp
+        m_MethodName: ValueChangeEvent
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_IsOn: 0
 --- !u!1 &249227281
 GameObject:
   m_ObjectHideFlags: 0
@@ -13929,6 +14149,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 265843673}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &265843673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14195,6 +14417,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 269233371}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &269233371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14940,6 +15164,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 283744208}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &283744208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15020,7 +15246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &284228500
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15970,6 +16196,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 303232531}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &303232531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16387,6 +16615,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 315482367}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &315482367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17210,7 +17440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &336466442
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22748,6 +22978,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 472419063}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &472419063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23938,6 +24170,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 487600115}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &487600115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24771,7 +25005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &507570805
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25444,7 +25678,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &524150728
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25635,6 +25869,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 524728294}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &524728294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26309,6 +26545,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 541184877}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &541184877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26514,6 +26752,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 543740242}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &543740242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26629,6 +26869,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 544909946}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &544909946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27242,6 +27484,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 567783346}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &567783346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27508,6 +27752,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 576655619}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &576655619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28439,6 +28685,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 598168731}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &598168731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28528,7 +28776,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 712759853}
   m_Father: {fileID: 2062317346}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -29021,6 +29270,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 609338143}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &609338143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29913,6 +30164,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 631756332}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &631756332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31654,6 +31907,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 664483643}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &664483643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33589,6 +33844,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 712104995}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &712104995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33724,6 +33981,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712516869}
   m_CullTransparentMesh: 1
+--- !u!1 &712759852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 712759853}
+  - component: {fileID: 712759855}
+  - component: {fileID: 712759854}
+  m_Layer: 5
+  m_Name: "\uC120\uD0DD"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &712759853
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712759852}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 600156319}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 75, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &712759854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712759852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 11d58c7270e11fa479cd6de372ce499f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &712759855
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712759852}
+  m_CullTransparentMesh: 1
 --- !u!1 &713038299
 GameObject:
   m_ObjectHideFlags: 0
@@ -33768,7 +34100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93e7e8a5a6ad2e64dad60b8d653efbbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTimeCount: 120
+  maxTimeCount: 60
   currentCount: 0
   timeCountChangeEvent:
     m_PersistentCalls:
@@ -34565,6 +34897,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 733143321}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &733143321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34932,6 +35266,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 740218105}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &740218105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36725,6 +37061,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 778711116}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &778711116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37193,6 +37531,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 788319407}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &788319407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38136,6 +38476,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 805544554}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &805544554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38326,6 +38668,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 809237241}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &809237241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43421,6 +43765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcabf7e2a7eac9c40978d431cf3088e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  memorybundle: []
   eg: {fileID: 811247896}
 --- !u!1 &821501242
 GameObject:
@@ -44874,6 +45219,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 857276597}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &857276597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45734,6 +46081,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 876171885}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &876171885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46040,6 +46389,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 877831845}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &877831845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46871,6 +47222,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 891901772}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &891901772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47021,6 +47374,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 897324649}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &897324649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47724,6 +48079,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 915710820}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &915710820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48002,6 +48359,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 925615059}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &925615059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48558,6 +48917,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 928909927}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &928909927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49594,6 +49955,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 964909303}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &964909303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49653,7 +50016,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &965102231
 GameObject:
   m_ObjectHideFlags: 0
@@ -49762,7 +50125,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &967984161
 RectTransform:
   m_ObjectHideFlags: 0
@@ -51200,7 +51563,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1002569667
 RectTransform:
   m_ObjectHideFlags: 0
@@ -51621,6 +51984,96 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1008841926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1008841927}
+  - component: {fileID: 1008841930}
+  - component: {fileID: 1008841929}
+  - component: {fileID: 1008841928}
+  m_Layer: 5
+  m_Name: "descriptionPanel_\uC545\uD2F0\uB284\uC871"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1008841927
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008841926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1373276817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -723, y: 50}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1008841928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008841926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5a713176a4a6a449ee81553dc97af7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementType: 0
+  descriptionName: {fileID: 0}
+--- !u!114 &1008841929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008841926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 70a18097e0b61e148b56b962c9651450, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1008841930
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008841926}
+  m_CullTransparentMesh: 1
 --- !u!1 &1013563712
 GameObject:
   m_ObjectHideFlags: 0
@@ -51676,6 +52129,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1013563715}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1013563715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51791,6 +52246,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1020562044}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1020562044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52432,6 +52889,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1027929621}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1027929621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53000,6 +53459,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1041293043}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1041293043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53931,6 +54392,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1055324576}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1055324576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54121,6 +54584,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1057964388}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1057964388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54510,7 +54975,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1066652273
 RectTransform:
   m_ObjectHideFlags: 0
@@ -55098,6 +55563,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1074139358}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1074139358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56440,6 +56907,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1096327803}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1096327803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56555,6 +57024,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1101034036}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1101034036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57271,7 +57742,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1118210525
 RectTransform:
   m_ObjectHideFlags: 0
@@ -57407,6 +57878,81 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1119638054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119638055}
+  - component: {fileID: 1119638057}
+  - component: {fileID: 1119638056}
+  m_Layer: 5
+  m_Name: "\uC120\uD0DD"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1119638055
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119638054}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1195502401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 75, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1119638056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119638054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4495a8260e3cfaf4185f5e01496cd443, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1119638057
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119638054}
+  m_CullTransparentMesh: 1
 --- !u!1 &1119786583
 GameObject:
   m_ObjectHideFlags: 0
@@ -58025,6 +58571,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1138148689}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1138148689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58243,6 +58791,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1143592545}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1143592545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58766,6 +59316,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1155779731}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1155779731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59112,6 +59664,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1160167365}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1160167365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59437,6 +59991,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1164627943}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1164627943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59517,7 +60073,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1176338250
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59859,6 +60415,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1179444255}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1179444255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60666,7 +61224,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1119638055}
   m_Father: {fileID: 246960236}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -60767,6 +61326,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1197308693}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1197308693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61477,6 +62038,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1208117213}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1208117213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63630,6 +64193,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1237074104}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1237074104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64433,6 +64998,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1262884497}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1262884497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66083,6 +66650,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1303312919}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1303312919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66198,6 +66767,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1307343866}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1307343866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67050,6 +67621,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1326543462}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1326543462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67130,7 +67703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1329031210
 RectTransform:
   m_ObjectHideFlags: 0
@@ -68159,6 +68732,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1351332825}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1351332825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69321,6 +69896,8 @@ RectTransform:
   - {fileID: 1047526241}
   - {fileID: 1022787641}
   - {fileID: 1543440285}
+  - {fileID: 156155278}
+  - {fileID: 1008841927}
   m_Father: {fileID: 1190547960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -70353,6 +70930,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1403756649}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1403756649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70468,6 +71047,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1408203220}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1408203220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71113,6 +71694,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1416129486}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1416129486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71703,6 +72286,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1423142282}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1423142282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72240,6 +72825,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1436528995}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1436528995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72874,6 +73461,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1458098432}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1458098432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73379,6 +73968,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1466135528}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1466135528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73985,6 +74576,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1483734979}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1483734979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75065,6 +75658,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1498171779}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1498171779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76147,6 +76742,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1527148279}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1527148279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76262,6 +76859,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1527979098}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1527979098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78429,6 +79028,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1576807900}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1576807900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78858,6 +79459,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1585308664}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1585308664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79261,6 +79864,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1598428290}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1598428290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79864,6 +80469,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1607339125}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1607339125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81730,6 +82337,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1643139369}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1643139369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81920,6 +82529,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1646967321}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1646967321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82272,7 +82883,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1660789769
 RectTransform:
   m_ObjectHideFlags: 0
@@ -84249,6 +84860,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1703362611}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1703362611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84622,6 +85235,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1707260311}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1707260311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85388,6 +86003,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1727280828}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1727280828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85676,6 +86293,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1729707512}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1729707512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86319,6 +86938,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1750721296}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1750721296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87200,6 +87821,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1771964666}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1771964666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87683,6 +88306,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1788791496}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1788791496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90196,6 +90821,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1859281630}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1859281630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91182,6 +91809,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1885567407}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1885567407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92305,6 +92934,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1916286175}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1916286175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92475,7 +93106,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1923800749
 RectTransform:
   m_ObjectHideFlags: 0
@@ -92666,6 +93297,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1924898317}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1924898317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92907,6 +93540,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1930575844}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1930575844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92984,7 +93619,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1932500271
 RectTransform:
   m_ObjectHideFlags: 0
@@ -93862,6 +94497,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1945960643}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1945960643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94128,6 +94765,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1948664983}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1948664983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94564,6 +95203,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1954448844}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1954448844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94830,6 +95471,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1962948537}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1962948537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95056,6 +95699,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1967139566}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1967139566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95321,6 +95966,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1975327298}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1975327298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95778,6 +96425,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1985166874}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1985166874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96195,6 +96844,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 1994209721}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &1994209721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96254,7 +96905,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1996229922
 GameObject:
   m_ObjectHideFlags: 0
@@ -96885,6 +97536,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 2002702366}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &2002702366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97405,6 +98058,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 2009063879}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &2009063879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97561,7 +98216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2011786505
 RectTransform:
   m_ObjectHideFlags: 0
@@ -98467,6 +99122,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 2035329594}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &2035329594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99209,6 +99866,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 2046033522}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &2046033522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99289,7 +99948,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2048973865
 RectTransform:
   m_ObjectHideFlags: 0
@@ -99645,7 +100304,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2058482229
 RectTransform:
   m_ObjectHideFlags: 0
@@ -100034,8 +100693,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2062317346}
+  - component: {fileID: 2062317348}
+  - component: {fileID: 2062317347}
   m_Layer: 5
-  m_Name: Dummy(Clone) (1)
+  m_Name: "\uB780\uD0C0\uB118\uC871(Dummy)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100061,6 +100722,100 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2062317347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062317345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55aec715bcf85bd429997209cd0f6cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementType: 0
+  descriptionControl: {fileID: 156155279}
+  elementNameText: {fileID: 0}
+  targetToggle: {fileID: 2062317348}
+  manImg: {fileID: 1766117318}
+  bundleToggle:
+  - {fileID: 544909946}
+  - {fileID: 524728294}
+  - {fileID: 897324649}
+  - {fileID: 576655619}
+  - {fileID: 192190007}
+  - {fileID: 788319407}
+  - {fileID: 1975327298}
+  - {fileID: 82472299}
+  - {fileID: 1703362611}
+  - {fileID: 226622772}
+  - {fileID: 1403756649}
+  - {fileID: 1208117213}
+  - {fileID: 1585308664}
+  - {fileID: 1788791496}
+  - {fileID: 1930575844}
+  toggleGroup: {fileID: 1082184841}
+--- !u!114 &2062317348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062317345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  toggleTransition: 1
+  graphic: {fileID: 712759854}
+  m_Group: {fileID: 1082184841}
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2062317347}
+        m_TargetAssemblyTypeName: ElementsButton, Assembly-CSharp
+        m_MethodName: ValueChangeEvent
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_IsOn: 0
 --- !u!1 &2065412206
 GameObject:
   m_ObjectHideFlags: 0
@@ -100081,7 +100836,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2065412207
 RectTransform:
   m_ObjectHideFlags: 0
@@ -100622,6 +101377,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 2070711801}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &2070711801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101088,6 +101845,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 2086174993}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &2086174993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101787,6 +102546,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 2106312656}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &2106312656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102399,6 +103160,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 2111788292}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &2111788292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102589,6 +103352,8 @@ MonoBehaviour:
   elementNameText: {fileID: 0}
   targetToggle: {fileID: 2114211836}
   manImg: {fileID: 1766117318}
+  bundleToggle: []
+  toggleGroup: {fileID: 1082184841}
 --- !u!114 &2114211836
 MonoBehaviour:
   m_ObjectHideFlags: 0

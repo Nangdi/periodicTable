@@ -27,7 +27,7 @@ public class TimeManager : MonoBehaviour
     //시작 커맨드
     private Coroutine onLoop = null;
     [Header("타임 카운터(초 기준)")]
-    public int maxTimeCount = 120;
+    public int maxTimeCount = 10;
     
     //[ReadOnly]
     [SerializeField]
@@ -82,7 +82,7 @@ public class TimeManager : MonoBehaviour
                 ++currentCount;
             }else{
                 timeCountChangeEvent.Invoke(currentCount, maxTimeCount);
-                SceneControlManager.Instance.OnLoadScene(SceneType.StandbyVideo);
+                SceneControlManager.Instance.OnLoadScene(SceneType.MainScene);
                 Debug.Log("초기화면으로 이동");
                /* GameManager.Instance.timelineSceneController.isTimePlay = false;
                 GameManager.Instance.timelineSceneController.TimelineStop(0);

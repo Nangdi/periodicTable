@@ -48,6 +48,7 @@ public class ElementsControl : MonoBehaviour
     public void OnEnable()
     {
         OnTogglesReset();
+        Debug.Log("Enable");
     }
 
 
