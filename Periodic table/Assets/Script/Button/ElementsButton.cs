@@ -32,12 +32,9 @@ public class ElementsButton : MonoBehaviour, IPointerClickHandler
     {
         if (isOn)
         {
-            Debug.Log(1);
             descriptionControl.OnInit();
             BundleOn();
-            Debug.Log(2);
             ChoseElement();
-            Debug.Log(3);
         }
         else {
             descriptionControl.OnClose();
@@ -58,7 +55,8 @@ public class ElementsButton : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         manImg.DOFade(0, 0f);
-        Debug.Log("Element PointClick..."+ elementType.ToString());
+        Debug.Log("Click : " + eventData.selectedObject.name);
+        Debug.Log("보낼포트번호 : " + GameManager.Instance.elementNameToNumDic[eventData.selectedObject.name]);
         /*if (descriptionControl)
         {
             //descriptionControl.OnInit();

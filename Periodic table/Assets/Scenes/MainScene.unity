@@ -760,126 +760,126 @@ MonoBehaviour:
       type: 3}
     descriptionPanelArea: {fileID: 1373276817}
   elementDataList:
-  - elementsButton: {fileID: 1948664982}
-  - elementsButton: {fileID: 1423142281}
-  - elementsButton: {fileID: 1985166873}
-  - elementsButton: {fileID: 809237240}
-  - elementsButton: {fileID: 75365208}
-  - elementsButton: {fileID: 303232530}
-  - elementsButton: {fileID: 1954448843}
-  - elementsButton: {fileID: 1859281629}
-  - elementsButton: {fileID: 20139211}
-  - elementsButton: {fileID: 1466135527}
-  - elementsButton: {fileID: 66060062}
-  - elementsButton: {fileID: 1436528994}
-  - elementsButton: {fileID: 778711115}
-  - elementsButton: {fileID: 877831844}
-  - elementsButton: {fileID: 1013563714}
-  - elementsButton: {fileID: 543740241}
-  - elementsButton: {fileID: 265843672}
-  - elementsButton: {fileID: 1916286174}
-  - elementsButton: {fileID: 1303312918}
-  - elementsButton: {fileID: 121939113}
-  - elementsButton: {fileID: 1143592544}
-  - elementsButton: {fileID: 1237074103}
-  - elementsButton: {fileID: 1707260310}
-  - elementsButton: {fileID: 2046033521}
-  - elementsButton: {fileID: 1527148278}
-  - elementsButton: {fileID: 1771964665}
-  - elementsButton: {fileID: 1041293042}
-  - elementsButton: {fileID: 1483734978}
-  - elementsButton: {fileID: 269233370}
-  - elementsButton: {fileID: 2114211835}
-  - elementsButton: {fileID: 2106312655}
-  - elementsButton: {fileID: 1155779730}
-  - elementsButton: {fileID: 98407817}
-  - elementsButton: {fileID: 1967139565}
-  - elementsButton: {fileID: 187951412}
-  - elementsButton: {fileID: 1924898316}
-  - elementsButton: {fileID: 1458098431}
-  - elementsButton: {fileID: 72325881}
-  - elementsButton: {fileID: 1498171778}
-  - elementsButton: {fileID: 541184876}
-  - elementsButton: {fileID: 598168730}
-  - elementsButton: {fileID: 1101034035}
-  - elementsButton: {fileID: 230210708}
-  - elementsButton: {fileID: 964909302}
-  - elementsButton: {fileID: 1945960642}
-  - elementsButton: {fileID: 1607339124}
-  - elementsButton: {fileID: 1138148688}
-  - elementsButton: {fileID: 81946990}
-  - elementsButton: {fileID: 104498560}
-  - elementsButton: {fileID: 2035329593}
-  - elementsButton: {fileID: 1885567406}
-  - elementsButton: {fileID: 231130257}
-  - elementsButton: {fileID: 2009063878}
-  - elementsButton: {fileID: 1598428289}
-  - elementsButton: {fileID: 1179444254}
-  - elementsButton: {fileID: 928909926}
-  - elementsButton: {fileID: 544909945}
-  - elementsButton: {fileID: 524728293}
-  - elementsButton: {fileID: 897324648}
-  - elementsButton: {fileID: 576655618}
-  - elementsButton: {fileID: 192190006}
-  - elementsButton: {fileID: 788319406}
-  - elementsButton: {fileID: 1975327297}
-  - elementsButton: {fileID: 82472298}
-  - elementsButton: {fileID: 1703362610}
-  - elementsButton: {fileID: 226622771}
-  - elementsButton: {fileID: 1403756648}
-  - elementsButton: {fileID: 1208117212}
-  - elementsButton: {fileID: 1585308663}
-  - elementsButton: {fileID: 1788791495}
-  - elementsButton: {fileID: 1930575843}
-  - elementsButton: {fileID: 925615058}
-  - elementsButton: {fileID: 184385946}
-  - elementsButton: {fileID: 1962948536}
-  - elementsButton: {fileID: 2002702365}
-  - elementsButton: {fileID: 1160167364}
-  - elementsButton: {fileID: 567783345}
-  - elementsButton: {fileID: 1527979097}
-  - elementsButton: {fileID: 1197308692}
-  - elementsButton: {fileID: 17224491}
-  - elementsButton: {fileID: 1750721295}
-  - elementsButton: {fileID: 1351332824}
-  - elementsButton: {fileID: 664483642}
-  - elementsButton: {fileID: 891901771}
-  - elementsButton: {fileID: 1020562043}
-  - elementsButton: {fileID: 1096327802}
-  - elementsButton: {fileID: 609338142}
-  - elementsButton: {fileID: 315482366}
-  - elementsButton: {fileID: 712104994}
-  - elementsButton: {fileID: 487600114}
-  - elementsButton: {fileID: 2086174992}
-  - elementsButton: {fileID: 733143320}
-  - elementsButton: {fileID: 1262884496}
-  - elementsButton: {fileID: 1057964387}
-  - elementsButton: {fileID: 283744207}
-  - elementsButton: {fileID: 1994209720}
-  - elementsButton: {fileID: 1055324575}
-  - elementsButton: {fileID: 1416129485}
-  - elementsButton: {fileID: 857276596}
-  - elementsButton: {fileID: 1326543461}
-  - elementsButton: {fileID: 1408203219}
-  - elementsButton: {fileID: 1576807899}
-  - elementsButton: {fileID: 805544553}
-  - elementsButton: {fileID: 1307343865}
-  - elementsButton: {fileID: 1729707511}
-  - elementsButton: {fileID: 915710819}
-  - elementsButton: {fileID: 1727280827}
-  - elementsButton: {fileID: 1027929620}
-  - elementsButton: {fileID: 472419062}
-  - elementsButton: {fileID: 631756331}
-  - elementsButton: {fileID: 2111788291}
-  - elementsButton: {fileID: 876171884}
-  - elementsButton: {fileID: 740218104}
-  - elementsButton: {fileID: 1074139357}
-  - elementsButton: {fileID: 1646967320}
-  - elementsButton: {fileID: 2070711800}
-  - elementsButton: {fileID: 1643139368}
-  - elementsButton: {fileID: 1164627942}
-  - elementsButton: {fileID: 2062317347}
-  - elementsButton: {fileID: 246960237}
+  - {fileID: 1948664982}
+  - {fileID: 1423142281}
+  - {fileID: 1985166873}
+  - {fileID: 809237240}
+  - {fileID: 75365208}
+  - {fileID: 303232530}
+  - {fileID: 1954448843}
+  - {fileID: 1859281629}
+  - {fileID: 20139211}
+  - {fileID: 1466135527}
+  - {fileID: 66060062}
+  - {fileID: 1436528994}
+  - {fileID: 778711115}
+  - {fileID: 877831844}
+  - {fileID: 1013563714}
+  - {fileID: 543740241}
+  - {fileID: 265843672}
+  - {fileID: 1916286174}
+  - {fileID: 1303312918}
+  - {fileID: 121939113}
+  - {fileID: 1143592544}
+  - {fileID: 1237074103}
+  - {fileID: 1707260310}
+  - {fileID: 2046033521}
+  - {fileID: 1527148278}
+  - {fileID: 1771964665}
+  - {fileID: 1041293042}
+  - {fileID: 1483734978}
+  - {fileID: 269233370}
+  - {fileID: 2114211835}
+  - {fileID: 2106312655}
+  - {fileID: 1155779730}
+  - {fileID: 98407817}
+  - {fileID: 1967139565}
+  - {fileID: 187951412}
+  - {fileID: 1924898316}
+  - {fileID: 1458098431}
+  - {fileID: 72325881}
+  - {fileID: 1498171778}
+  - {fileID: 541184876}
+  - {fileID: 598168730}
+  - {fileID: 1101034035}
+  - {fileID: 230210708}
+  - {fileID: 964909302}
+  - {fileID: 1945960642}
+  - {fileID: 1607339124}
+  - {fileID: 1138148688}
+  - {fileID: 81946990}
+  - {fileID: 104498560}
+  - {fileID: 2035329593}
+  - {fileID: 1885567406}
+  - {fileID: 231130257}
+  - {fileID: 2009063878}
+  - {fileID: 1598428289}
+  - {fileID: 1179444254}
+  - {fileID: 928909926}
+  - {fileID: 544909945}
+  - {fileID: 524728293}
+  - {fileID: 897324648}
+  - {fileID: 576655618}
+  - {fileID: 192190006}
+  - {fileID: 788319406}
+  - {fileID: 1975327297}
+  - {fileID: 82472298}
+  - {fileID: 1703362610}
+  - {fileID: 226622771}
+  - {fileID: 1403756648}
+  - {fileID: 1208117212}
+  - {fileID: 1585308663}
+  - {fileID: 1788791495}
+  - {fileID: 1930575843}
+  - {fileID: 925615058}
+  - {fileID: 184385946}
+  - {fileID: 1962948536}
+  - {fileID: 2002702365}
+  - {fileID: 1160167364}
+  - {fileID: 567783345}
+  - {fileID: 1527979097}
+  - {fileID: 1197308692}
+  - {fileID: 17224491}
+  - {fileID: 1750721295}
+  - {fileID: 1351332824}
+  - {fileID: 664483642}
+  - {fileID: 891901771}
+  - {fileID: 1020562043}
+  - {fileID: 1096327802}
+  - {fileID: 609338142}
+  - {fileID: 315482366}
+  - {fileID: 712104994}
+  - {fileID: 487600114}
+  - {fileID: 2086174992}
+  - {fileID: 733143320}
+  - {fileID: 1262884496}
+  - {fileID: 1057964387}
+  - {fileID: 283744207}
+  - {fileID: 1994209720}
+  - {fileID: 1055324575}
+  - {fileID: 1416129485}
+  - {fileID: 857276596}
+  - {fileID: 1326543461}
+  - {fileID: 1408203219}
+  - {fileID: 1576807899}
+  - {fileID: 805544553}
+  - {fileID: 1307343865}
+  - {fileID: 1729707511}
+  - {fileID: 915710819}
+  - {fileID: 1727280827}
+  - {fileID: 1027929620}
+  - {fileID: 472419062}
+  - {fileID: 631756331}
+  - {fileID: 2111788291}
+  - {fileID: 876171884}
+  - {fileID: 740218104}
+  - {fileID: 1074139357}
+  - {fileID: 1646967320}
+  - {fileID: 2070711800}
+  - {fileID: 1643139368}
+  - {fileID: 1164627942}
+  - {fileID: 2062317347}
+  - {fileID: 246960237}
 --- !u!114 &13215197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13464,7 +13464,7 @@ GameObject:
   - component: {fileID: 246960238}
   - component: {fileID: 246960237}
   m_Layer: 5
-  m_Name: "\uC545\uD2F0\uB284\uC871(Dummy)"
+  m_Name: Actinides
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43766,6 +43766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   memorybundle: []
+  elementList: []
   eg: {fileID: 811247896}
 --- !u!1 &821501242
 GameObject:
@@ -100696,7 +100697,7 @@ GameObject:
   - component: {fileID: 2062317348}
   - component: {fileID: 2062317347}
   m_Layer: 5
-  m_Name: "\uB780\uD0C0\uB118\uC871(Dummy)"
+  m_Name: Lanthanide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

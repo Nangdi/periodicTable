@@ -143,17 +143,30 @@ public class GameManager : MonoBehaviour
         Og = 153
     }
     public Toggle[] memorybundle;
-
+    public List<ElementsButton> elementList;
+    //각원소= 원소번호
+    // 란타넘족 = 119
+    // 악티늄족 = 120
+    // 초기화 = 0
+    public Dictionary<string, int> elementNameToNumDic = new Dictionary<string, int>();
     public void OnEnable()
     {
         OnInit();
     }
+    private void Start()
+    {
+        for (int i = 0; i < elementList.Count; i++)
+        {
+            elementNameToNumDic[elementList[i].name] = (i + 1);
+            //Debug.Log(elementList[i].name + " : " + elementNameToNumDic[elementList[i].name]);
 
+        }
+    }
     /// <summary>
     /// 초기 진행 설정 
     /// </summary>
     private void OnInit() {
-        Screen.SetResolution(3840, 2160, true);
+        Screen.SetResolution(1920, 1080, true);
         Debug.Log("초기 진행 설정 구간");
     }
 

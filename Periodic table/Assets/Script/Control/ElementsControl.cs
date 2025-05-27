@@ -30,7 +30,7 @@ public class ElementsControl : MonoBehaviour
         public Transform descriptionPanelArea;
     }
 
-    public List<ElementData> elementDataList;
+    public List<ElementsButton> elementDataList;
 
     [System.Serializable]
     public class ElementData {
@@ -38,11 +38,15 @@ public class ElementsControl : MonoBehaviour
         public ElementsButton elementsButton;
     }
 
-
+    private void Awake()
+    {
+        GameManager.Instance.elementList = elementDataList;
+    }
     public void Start()
     {
         //yield reutrn 
         OnTogglesReset();
+        
     }
 
     public void OnEnable()
@@ -88,7 +92,7 @@ public class ElementsControl : MonoBehaviour
         Debug.Log("TogglesReset2");
         for (int i = 0; i < elementDataList.Count; i++)
         {
-            elementDataList[i].elementsButton.targetToggle.isOn = false;
+            elementDataList[i].targetToggle.isOn = false;
         }
         yield return null;
 

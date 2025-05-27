@@ -81,8 +81,8 @@ public class ElementsControlEditor : Editor
                             GameObject.Instantiate<ElementsButton>(elementsControl.elementsPrefab, elementsControl.transform);
                     }
                     
-                    ElementData elementData = new ElementData();
-                    elementData.elementsButton = elementButtonPrefab;
+                    ElementsButton elementData = new ElementsButton();
+                    elementData = elementButtonPrefab;
                     elementsControl.elementDataList.Add(elementData);
                     GameManager.ElementType elementType = (GameManager.ElementType)index;
                     elementButtonPrefab.SetData(elementType);
