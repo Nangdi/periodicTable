@@ -55,8 +55,10 @@ public class ElementsButton : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         manImg.DOFade(0, 0f);
-        Debug.Log("Click : " + eventData.selectedObject.name);
-        Debug.Log("보낼포트번호 : " + GameManager.Instance.elementNameToNumDic[eventData.selectedObject.name]);
+        //Debug.Log("Click : " + eventData.selectedObject.name);
+        //Debug.Log("보낼포트번호 : " + GameManager.Instance.elementNameToNumDic[eventData.selectedObject.name]);
+        string message = GameManager.Instance.elementNameToNumDic[eventData.selectedObject.name].ToString();
+        SerialPortManager.Instance.SendData(message + "A");
         /*if (descriptionControl)
         {
             //descriptionControl.OnInit();
